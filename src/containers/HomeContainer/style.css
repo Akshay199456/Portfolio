@@ -1,0 +1,13 @@
+.homeContact{
+	background-color: white;
+	display: inline-block;
+	height: 100vh;
+	width: 50vw;
+}
+
+.homeProjects{
+	background-color: red;
+	display: inline-block;
+	height: 100vh;
+	width: 50vw;
+}
