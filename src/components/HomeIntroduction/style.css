@@ -1,0 +1,27 @@
+.homeName, .homeLabels, .homeLinks, .homeAbout{
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+}
+
+.homeName{
+	font-weight: bolder;
+	font-size: 30px;
+	letter-spacing: 0.2rem;
+}
+
+.homeLabels{
+	padding: 0 0.5rem;
+    font-size: 12px;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 0.1rem;
+    font-weight: bold;
+}
+
+.homeLinks{
+	padding-top: 5px;
+}
+
+.links:hover{
+	background-color: black;
+	color: white;
+}

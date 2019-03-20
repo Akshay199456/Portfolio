@@ -2,10 +2,25 @@ import React, { Component } from 'react';
 import { Button, Form} from 'semantic-ui-react';
 import './style.css';
 
+import HomeIntroduction from '../../components/HomeIntroduction';
+import HomeProject from '../../components/HomeProject';
+
 class HomeContainer extends Component{
 	constructor(){
 		super();
 
+	}
+
+	githubLink = () =>{
+		window.location.assign('https://github.com/Akshay199456');
+	}
+
+	linkedinLink = () =>{
+		window.location.assign('https://www.linkedin.com/in/akshaymysore/');
+	}
+
+	mailLink = () =>{
+		window.location.assign('mailto:akshay.kum94@gmail.com');
 	}
 
 	render(){
@@ -13,11 +28,15 @@ class HomeContainer extends Component{
 			<div>
 				<div className='home'>
 					<div className='homeContact'>
-						Contact Info
+						<HomeIntroduction 
+							githubLink={this.githubLink} 
+							linkedinLink={this.linkedinLink} 
+							mailLink={this.mailLink}
+						/>
 					</div>
 
 					<div className='homeProjects'>
-						Project
+						<HomeProject/>
 					</div>
 				</div>
 			</div>
