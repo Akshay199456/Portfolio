@@ -26,6 +26,23 @@
 	color: white;
 }
 
+.homeAbout:hover{
+	font-size: 18px;
+}
+
 .detailsContainer{
 	padding-top: 350px;
+}
+
+.centerText{
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	font-weight: bold;
+	font-size: 14px;
+	letter-spacing: 0.2rem;
+}
+
+.button{
+margin-top:15px;
+margin-bottom: 15px;
 }

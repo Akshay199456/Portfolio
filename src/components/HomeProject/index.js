@@ -1,4 +1,5 @@
 import React from 'react';
+import { Divider } from 'semantic-ui-react';
 import './style.css';
 
 const HomeProject = (props) =>{
@@ -22,6 +23,9 @@ const HomeProject = (props) =>{
 	            </div>
 	          </div>
 
+	          <div className='dividerLine'>
+	          </div>
+
 
 
 	          <div className="col-sm-12 col-md-12 col-lg-12 mx-0 thumbnail-wrapper">
@@ -39,6 +43,8 @@ const HomeProject = (props) =>{
 	            </div>
 	          </div>
 
+	          <div className='dividerLine'>
+	          </div>
 
 
 	          <div className="col-sm-12 col-md-12 col-lg-12 mx-0 thumbnail-wrapper">
@@ -56,6 +62,8 @@ const HomeProject = (props) =>{
 	            </div>
 	          </div>
 
+	          <div className='dividerLine'>
+	          </div>
 
 
 	          <div className="col-sm-12 col-md-12 col-lg-12 mx-0 thumbnail-wrapper">
@@ -68,7 +76,7 @@ const HomeProject = (props) =>{
 	            <div className="link">
 	              <div className="link-icon">
 	                <a href="https://pages.git.generalassemb.ly/AkshayMysore/AkshayMysore.github.io-Project1/" target="_blank"><i className="fa fa-link mx-2" aria-hidden="true"></i></a>
-	                <a href="https://github.com/Akshay199456/Project-1" target="_blank"><i className="fab fa-github-alt" aria-hidden="true"></i></a>
+	                <a href="https://github.com/Akshay199456/Project-1" target="_blank"><i className="fab fa-github-alt mx-2" aria-hidden="true"></i></a>
 	              </div>
 	            </div>
 	          </div>

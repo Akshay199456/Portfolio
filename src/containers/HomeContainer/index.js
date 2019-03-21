@@ -9,6 +9,10 @@ class HomeContainer extends Component{
 	constructor(){
 		super();
 
+		this.state ={
+			buttonClicked: false
+		}
+
 	}
 
 	githubLink = () =>{
@@ -23,6 +27,13 @@ class HomeContainer extends Component{
 		window.location.assign('mailto:akshay.kum94@gmail.com');
 	}
 
+	showAbout = () =>{
+		console.log('showAbout clicked!');
+		this.setState({
+			buttonClicked: !this.state.buttonClicked
+		});
+	}
+
 	render(){
 		return(
 			<div>
@@ -32,6 +43,8 @@ class HomeContainer extends Component{
 							githubLink={this.githubLink} 
 							linkedinLink={this.linkedinLink} 
 							mailLink={this.mailLink}
+							buttonClicked={this.state.buttonClicked}
+							showAbout={this.showAbout}
 						/>
 					</div>
 
