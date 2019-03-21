@@ -1,21 +1,16 @@
 import React from 'react';
+import './style.css';
 
 const HomeProject = (props) =>{
 	return(
-			<div> 
-				<div className='homeName'>
-					AKSHAY MYSORE M.S.
-				</div>
-				<div className='homeLabels'>
-					Developer Designer Illustrator
-				</div>
-				<div className='homeLinks'>
-					Links
-				</div>
-				<div className='homeAbout'>
-					About
-				</div>
-			</div> 
+		<div className='projectContainer'>
+			<img src='/fun.jpeg' className='projects col-sm-12 col-md-6 col-lg-12 mx-0 thumbnail-wrapper'/>
+			<img src='/fun.jpeg' className='projects col-sm-12 col-md-6 col-lg-12 mx-0 thumbnail-wrapper'/>
+			<img src='/fun.jpeg' className='projects col-sm-12 col-md-6 col-lg-12 mx-0 thumbnail-wrapper'/>
+			<img src='/fun.jpeg' className='projects col-sm-12 col-md-6 col-lg-12 mx-0 thumbnail-wrapper'/>
+			<img src='/fun.jpeg' className='projects col-sm-12 col-md-6 col-lg-12 mx-0 thumbnail-wrapper'/>
+			<img src='/fun.jpeg' className='projects col-sm-12 col-md-6 col-lg-12 mx-0 thumbnail-wrapper'/>
+		</div>
 	);
 }
 

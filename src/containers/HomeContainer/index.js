@@ -27,7 +27,7 @@ class HomeContainer extends Component{
 		return(
 			<div>
 				<div className='home'>
-					<div className='homeContact'>
+					<div className='homeContact col-sm-12 col-lg-6 px-0'>
 						<HomeIntroduction 
 							githubLink={this.githubLink} 
 							linkedinLink={this.linkedinLink} 
@@ -35,7 +35,7 @@ class HomeContainer extends Component{
 						/>
 					</div>
 
-					<div className='homeProjects'>
+					<div className='homeProjects col-sm-12 col-lg-6 px-0'>
 						<HomeProject/>
 					</div>
 				</div>

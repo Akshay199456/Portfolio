@@ -7,7 +7,7 @@ const HomeIntroduction = (props) =>{
 
 
 	return(
-			<div> 
+			<div className='detailsContainer'> 
 				<div className='homeName'>
 					AKSHAY MYSORE M.S.
 				</div>

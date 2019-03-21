@@ -1,16 +1,17 @@
 .homeContact, .homeProjects{
-	display: inline-block;
-	height: 100vh;
-	width: 50vw;
 	line-height: 1.6;
-	padding-top: 50vh;
+	display: inline-block;
 }
 
 .homeContact{
 	background-color: white;
+	height: 100vh;
+	overflow: hidden;
 }
 
 .homeProjects{
 	background-color: black;
 	color: white;
+	height: 100vh;
+	overflow: scroll;
 }
